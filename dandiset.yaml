@@ -4,9 +4,10 @@
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.3.0/context.json
 about: []
 access: []
-citation: 'Hugo Merchant (2021). Online: https://dandiarchive.org/000106/draft'
+citation: 'Electrophysiology data from simultaneous recordings (2021). Online: https://dandiarchive.org/000106/draft'
 contributor: []
-description: Recordings
+description: Data from extracellular recording of M1, Putamen, PreSMA and auditories
+  areas of a Monkey during the execution of several active and passive tasks.
 ethicsApproval: []
 id: 000106/draft
 identifier: DANDI:000106
@@ -14,13 +15,14 @@ keywords: []
 license:
 - spdx:CC0-1.0
 manifestLocation: []
-name: Hugo Merchant
+name: Electrophysiology data from simultaneous recordings
 protocol: []
 relatedResource: []
 repository: https://dandiarchive.org/
+schemaKey: Dandiset
 schemaVersion: 0.3.0
 studyTarget:
-- Timing
+- M1, Putaman, PreSMA Rostral and Caudal A1.
 url: https://dandiarchive.org/000106/draft
 version: draft
 wasGeneratedBy: []
