@@ -3,9 +3,23 @@
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.3.0/context.json
 about: []
-access: []
+access:
+- contactPoint:
+    email: pradol@unam.mx
+    schemaKey: ContactPoint
+  description: GilRecordings5Areas
+  status: dandi:Open
 citation: 'Electrophysiology data from simultaneous recordings (2021). Online: https://dandiarchive.org/000106/draft'
-contributor: []
+contributor:
+- affiliation: []
+  email: hugomerchant@unam.mx
+  identifier: 0000-0002-3488-9501
+  includeInCitation: false
+  name: Hugo Merchant
+  roleName:
+  - dandi:ContactPerson
+  schemaKey: Person
+  url: http://132.248.142.23/web_site/home_pages/10?locale=es
 description: Data from extracellular recording of M1, Putamen, PreSMA and auditories
   areas of a Monkey during the execution of several active and passive tasks.
 ethicsApproval: []
@@ -13,7 +27,7 @@ id: 000106/draft
 identifier: DANDI:000106
 keywords: []
 license:
-- spdx:CC0-1.0
+- spdx:CC-BY-NC-4.0
 manifestLocation: []
 name: Electrophysiology data from simultaneous recordings
 protocol: []
