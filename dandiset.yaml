@@ -2,12 +2,15 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000106
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.4.4/context.json
-about: []
+about:
+- name: Luis Prado
+  schemaKey: GenericType
 access:
 - contactPoint:
     email: pradol@unam.mx
     schemaKey: ContactPoint
   description: GilRecordings5Areas
+  schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
   numberOfBytes: 0
@@ -17,16 +20,16 @@ citation: Electrophysiology data from simultaneous recordings (2021). (Version d
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000106/draft
 contributor:
 - affiliation: []
-  email: hugomerchant@unam.mx
+  email: pradol@unam.mx
   identifier: 0000-0002-3488-9501
   includeInCitation: false
-  name: Hugo Merchant
+  name: Luis Antonio Prado Loeza
   roleName:
-  - dcite:ContactPerson
+  - dcite:DataCollector
   schemaKey: Person
   url: http://132.248.142.23/web_site/home_pages/10?locale=es
-description: Data from extracellular recording of M1, Putamen, PreSMA and auditories
-  areas of a Monkey during the execution of several active and passive tasks.
+description: 'Data from extracellular recording of M1, Putamen, PreSMA and auditories
+  areas of a Monkey during the execution of several active and passive tasks. '
 ethicsApproval: []
 id: DANDI:000106/draft
 identifier: DANDI:000106
