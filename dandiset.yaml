@@ -43,7 +43,8 @@ identifier: DANDI:000106
 keywords: []
 license:
 - spdx:CC-BY-NC-4.0
-manifestLocation: []
+manifestLocation:
+- https://api.dandiarchive.org/api/dandisets/000106/versions/draft/assets/
 name: Electrophysiology data from simultaneous recordings
 protocol: []
 relatedResource: []
